@@ -9,7 +9,7 @@
 
 //este sirve para mostrar en minuscula
 // console.log(cadena1.toLowerCase())
-//este sirve para mostrar en minuscula
+//este sirve para mostrar en mayuscula
 // console.log(cadena1.toUpperCase())
 
 // var cadenanueva=cadena1.concat(cadena2)
@@ -25,9 +25,10 @@
 //esto es para mostrar o hasta la 5 la palabra
 //console.log(cadena1.slice(0,5))
 
-var cadena1="carro bmw"
+///////////// var cadena1="carro bmw"
 
-console.log(cadena1.substring(4,6))
+// esto selecciona los caracteres del arreglo
+// console.log(cadena1.substring(4,6))
 //esto es para convertir un arreglo en un array con un separador
 //console.log(cadena1.split(" "))
 
@@ -83,5 +84,45 @@ console.log(cadena1.substring(4,6))
 //     alert("la propuesta,loco y estupido amor,mi primer amor")
 //     }
 // }
+//27/06/2019...........
+//METODO PARA ARREGLOS
+
+//estamos manejando el 'dom'
+// var cadena1="carro bmw"
+// document.getElementById('ejercicioArray').innerHTML=cadena1
 
 
+// var array1=[
+// "bateria",
+// "bajo",
+// "guitarra",
+// "saxofon",
+// "violin"
+// ]
+// var textoarray=array1.toString
+// document.getElementById('ejercicioArray').innerHTML=array1.toString()
+
+//Metodo join
+// document.getElementById('ejercicioArray').innerHTML=array1.join("+")
+
+//Metodo pop es para quitar 
+// document.getElementById('ejercicioArray').innerHTML=array1.pop()
+// console.log(array1)
+
+// document.getElementById('ejercicioArray').innerHTML=array1.push("flauta")
+// console.log(array1)
+
+var array2="APRENDIZ"
+separador=""
+arregloDeSubCadenas=array2.split(separador);
+
+
+document.getElementById('ejercicioArray').innerHTML=array2.toLowerCase()+"  "+"sena"
+document.getElementById('ejercicioArray2').innerHTML=array2.split(separador).join("+");
+document.getElementById('ejercicioArray3').innerHTML=array2.split(separador).reverse("").join("");
+
+{
+
+}
+
+ 
